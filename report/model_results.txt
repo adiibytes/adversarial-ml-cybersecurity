@@ -1,0 +1,36 @@
+
+--- rf_model ---
+Accuracy: 0.9668
+              precision    recall  f1-score   support
+
+           0       0.98      0.95      0.96      1428
+           1       0.96      0.98      0.97      1889
+
+    accuracy                           0.97      3317
+   macro avg       0.97      0.96      0.97      3317
+weighted avg       0.97      0.97      0.97      3317
+
+
+--- logreg_model ---
+Accuracy: 0.9219
+              precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      1428
+           1       0.93      0.93      0.93      1889
+
+    accuracy                           0.92      3317
+   macro avg       0.92      0.92      0.92      3317
+weighted avg       0.92      0.92      0.92      3317
+
+
+--- xgb_model ---
+Accuracy: 0.9699
+              precision    recall  f1-score   support
+
+           0       0.98      0.95      0.96      1428
+           1       0.96      0.98      0.97      1889
+
+    accuracy                           0.97      3317
+   macro avg       0.97      0.97      0.97      3317
+weighted avg       0.97      0.97      0.97      3317
+

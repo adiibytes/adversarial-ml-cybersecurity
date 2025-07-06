@@ -1,0 +1,114 @@
+
+===== Random Forest =====
+
+--- Character Substitution ---
+Accuracy: 0.9835
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98      4898
+           1       0.98      0.99      0.99      6157
+
+    accuracy                           0.98     11055
+   macro avg       0.98      0.98      0.98     11055
+weighted avg       0.98      0.98      0.98     11055
+
+
+--- Feature Padding ---
+Accuracy: 0.9835
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98      4898
+           1       0.98      0.99      0.99      6157
+
+    accuracy                           0.98     11055
+   macro avg       0.98      0.98      0.98     11055
+weighted avg       0.98      0.98      0.98     11055
+
+
+--- Noise Injection ---
+Accuracy: 0.9833
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98      4898
+           1       0.98      0.99      0.99      6157
+
+    accuracy                           0.98     11055
+   macro avg       0.98      0.98      0.98     11055
+weighted avg       0.98      0.98      0.98     11055
+
+
+===== Logistic Regression =====
+
+--- Character Substitution ---
+Accuracy: 0.9284
+              precision    recall  f1-score   support
+
+           0       0.93      0.91      0.92      4898
+           1       0.93      0.94      0.94      6157
+
+    accuracy                           0.93     11055
+   macro avg       0.93      0.93      0.93     11055
+weighted avg       0.93      0.93      0.93     11055
+
+
+--- Feature Padding ---
+Accuracy: 0.9284
+              precision    recall  f1-score   support
+
+           0       0.93      0.91      0.92      4898
+           1       0.93      0.94      0.94      6157
+
+    accuracy                           0.93     11055
+   macro avg       0.93      0.93      0.93     11055
+weighted avg       0.93      0.93      0.93     11055
+
+
+--- Noise Injection ---
+Accuracy: 0.9254
+              precision    recall  f1-score   support
+
+           0       0.92      0.91      0.92      4898
+           1       0.93      0.94      0.93      6157
+
+    accuracy                           0.93     11055
+   macro avg       0.92      0.92      0.92     11055
+weighted avg       0.93      0.93      0.93     11055
+
+
+===== XGBoost =====
+
+--- Character Substitution ---
+Accuracy: 0.9819
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98      4898
+           1       0.98      0.99      0.98      6157
+
+    accuracy                           0.98     11055
+   macro avg       0.98      0.98      0.98     11055
+weighted avg       0.98      0.98      0.98     11055
+
+
+--- Feature Padding ---
+Accuracy: 0.9819
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98      4898
+           1       0.98      0.99      0.98      6157
+
+    accuracy                           0.98     11055
+   macro avg       0.98      0.98      0.98     11055
+weighted avg       0.98      0.98      0.98     11055
+
+
+--- Noise Injection ---
+Accuracy: 0.9806
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98      4898
+           1       0.98      0.99      0.98      6157
+
+    accuracy                           0.98     11055
+   macro avg       0.98      0.98      0.98     11055
+weighted avg       0.98      0.98      0.98     11055
+
